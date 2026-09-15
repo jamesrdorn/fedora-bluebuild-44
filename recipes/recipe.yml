@@ -32,4 +32,10 @@ modules:
         - firefox-langpacks
         - ghostty
 
+  - type: rpm-ostree
+    repos:
+        - https://fedorainfracloud.org
+    install:
+      - ghostty
+
   - type: signing # this sets up the proper policy & signing files for signed images to work fully

@@ -30,7 +30,6 @@ modules:
         - iftop
         - firefox
         - firefox-langpacks
-        - ghostty
 
   - type: rpm-ostree
     repos:

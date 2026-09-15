@@ -33,7 +33,7 @@ modules:
 
   - type: rpm-ostree
     repos:
-        - https://fedorainfracloud.org
+        - https://copr.fedorainfracloud.org/coprs/scottames/ghostty
     install:
       - ghostty
 

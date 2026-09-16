@@ -21,6 +21,7 @@ modules:
     repos:
       copr:
         - atim/starship
+        - scottames/ghostty
     install:
       packages:
         - micro
@@ -30,11 +31,6 @@ modules:
         - iftop
         - firefox
         - firefox-langpacks
-
-  - type: rpm-ostree
-    repos:
-        - https://copr.fedorainfracloud.org/coprs/scottames/ghostty
-    install:
-      - ghostty
+        - ghostty
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully

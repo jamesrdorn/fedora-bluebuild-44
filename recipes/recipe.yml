@@ -32,5 +32,9 @@ modules:
         - firefox
         - firefox-langpacks
         - ghostty
+        - distrobox
+    remove:
+      packages:
+        - toolbox
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully

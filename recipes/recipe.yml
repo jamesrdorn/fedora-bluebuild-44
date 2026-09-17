@@ -48,6 +48,12 @@ modules:
           - org.videolan.VLC
           - com.discordapp.Discord
           - org.fedoraproject.MediaWriter
+          - com.usebottles.bottles
+          - com.obsproject.Studio
+          - org.telegram.desktop
+          - org.libreoffice.LibreOffice
+          - com.vysp3r.ProtonPlus
+          - com.valvesoftware.Steam
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully

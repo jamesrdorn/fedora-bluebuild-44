@@ -35,9 +35,11 @@ modules:
         - distrobox
         - fprintd
         - fprintd-pam
+        - nmap-ncat
     remove:
       packages:
         - toolbox
+        - nc
 
   - type: default-flatpaks
     configurations:

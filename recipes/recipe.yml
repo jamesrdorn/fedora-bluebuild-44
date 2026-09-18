@@ -57,5 +57,9 @@ modules:
           - com.vysp3r.ProtonPlus
           - com.valvesoftware.Steam
       - scope: user # Also add Flathub user repo, but no user packages
+  - type: script
+    snippets:
+        - "mkdir /usr/share/ncat"
+        - "sudo ln -s /etc/ssl/certs/ca-bundle.crt /usr/share/ncat/ca-bundle.crt"
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully

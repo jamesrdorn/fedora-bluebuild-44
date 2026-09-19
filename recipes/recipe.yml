@@ -61,5 +61,7 @@ modules:
     snippets:
         - "mkdir /usr/share/ncat"
         - "sudo ln -s /etc/ssl/certs/ca-bundle.crt /usr/share/ncat/ca-bundle.crt"
+    scripts:
+      - install_chrome.sh
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully

@@ -8,5 +8,5 @@ set -oue pipefail
 echo 'Downloading Chrome Latest...'
 curl https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm > /tmp/google-chrome-stable_current_x86_64.rpm
 echo 'Installing Google Chrome Latest...'
-dnf install /tmp/google-chrome-stable_current_x86_64.rpm
+dnf install /tmp/google-chrome-stable_current_x86_64.rpm -y
 echo 'Finished installing Google Chrome Latest...'

@@ -56,6 +56,7 @@ modules:
           - org.libreoffice.LibreOffice
           - com.vysp3r.ProtonPlus
           - com.valvesoftware.Steam
+          - org.kde.kdenlive
       - scope: user # Also add Flathub user repo, but no user packages
   - type: script
     snippets:

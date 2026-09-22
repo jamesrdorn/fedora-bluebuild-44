@@ -21,7 +21,6 @@ modules:
     repos:
       copr:
         - scottames/ghostty
-        - frost009/Obsidian
     install:
       packages:
         - micro
@@ -35,7 +34,6 @@ modules:
         - fprintd
         - fprintd-pam
         - nmap-ncat
-        - obsidian
     remove:
       packages:
         - toolbox

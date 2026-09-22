@@ -22,6 +22,7 @@ modules:
       copr:
         - atim/starship
         - scottames/ghostty
+        - frost009/Obsidian
     install:
       packages:
         - micro
@@ -36,6 +37,7 @@ modules:
         - fprintd
         - fprintd-pam
         - nmap-ncat
+        - obsidian
     remove:
       packages:
         - toolbox

@@ -20,13 +20,11 @@ modules:
   - type: dnf
     repos:
       copr:
-        - atim/starship
         - scottames/ghostty
         - frost009/Obsidian
     install:
       packages:
         - micro
-        - starship
         - gh
         - htop
         - iftop

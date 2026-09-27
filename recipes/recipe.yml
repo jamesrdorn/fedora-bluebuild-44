@@ -55,6 +55,8 @@ modules:
           - com.vysp3r.ProtonPlus
           - com.valvesoftware.Steam
           - org.kde.kdenlive
+          - com.slack.Slack
+          - md.obsidian.Obsidian
       - scope: user # Also add Flathub user repo, but no user packages
   - type: script
     snippets:

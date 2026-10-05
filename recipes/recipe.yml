@@ -34,6 +34,7 @@ modules:
         - fprintd
         - fprintd-pam
         - nmap-ncat
+        - podman-compose
     remove:
       packages:
         - toolbox
